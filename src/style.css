@@ -25,6 +25,33 @@ h2 {
 h3 {
   font-size: 24px;
 }
+.container-about a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: whitesmoke;
+}
+.container-about {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.container-projects a {
+  background-color: var(--primary-color);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: whitesmoke;
+}
+.container-projects {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
 .mainNav {
   margin-bottom: 40px;
 }
@@ -32,8 +59,23 @@ h3 {
   color: whitesmoke;
   margin-top: 200px;
 }
+.about-title {
+  color: var(--secondary-color);
+  font-size: 64px;
+  text-align: center;
+}
+.expertise {
+  font-size: 18px;
+}
+.badges {
+  display: block;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
 #about-me {
-  margin-top: 500px;
+  margin-top: 300px;
+  margin-bottom: 50px;
   background-color: white;
   color: var(--secondary-color);
 }

@@ -63,7 +63,6 @@ h3 {
   color: whitesmoke;
   display: block;
   margin-top: 100px;
-  text-align: center;
 }
 .contact-info {
   color: var(--secondary-color);
@@ -72,7 +71,7 @@ h3 {
   font-weight: bold;
   line-height: 2.5;
   margin: 60px 350px;
-  padding: 40px 20px;
+  padding: 40px 40px;
 }
 .about-title {
   color: var(--secondary-color);

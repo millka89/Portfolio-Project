@@ -59,6 +59,21 @@ h3 {
   color: whitesmoke;
   margin-top: 200px;
 }
+.contact {
+  color: whitesmoke;
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+}
+.contact-info {
+  color: var(--secondary-color);
+  font-size: 28px;
+  background-color: whitesmoke;
+  font-weight: bold;
+  line-height: 2.5;
+  margin: 60px 350px;
+  padding: 40px 20px;
+}
 .about-title {
   color: var(--secondary-color);
   font-size: 64px;

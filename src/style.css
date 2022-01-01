@@ -93,3 +93,19 @@ h3 {
   background-color: white;
   color: var(--secondary-color);
 }
+.projects {
+  margin-top: 80px;
+}
+.DISC {
+  display: flex;
+  justify-content: center;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+}
+.card-title {
+  font-size: 36px;
+  text-align: center;
+  color: var(--secondary-color);
+}

@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="Contact Me. This is site about Kamila Mikulska, Frond-End Developer with affinity in Project Manager and Business Analysis."
+    />
+    <title>Contact Me-Mikulska Kamila</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,6 +32,64 @@
     <link href="src/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>My projects</h1>
+    <nav class="mainNav navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kamila Mikulska</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about-me">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#skills">Key skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">My projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="contact">
+      <h1 class="myName">My projects</h1>
+    </div>
+    <div class="container projects">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+      <h5 class="card-title">DISC model project</h5>
+      <img src="img/DISC.JPG" class="card-img-top" alt="DISK model">
+      <div class="card-body">
+      <p class="card-text">Coded with HTML and CSS.</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <h5 class="card-title">Weather App</h5>
+       <img src="img/weather.JPG" class="card-img-top" alt="Weather app">
+      <div class="card-body">
+     <p class="card-text">Coded with HTML, CSS and JS.</p>
+    </div>
+</div>
+    </div>
+  </div>
   </body>
 </html>

@@ -96,7 +96,7 @@ h4 {
   background-color: whitesmoke;
   font-weight: bold;
   line-height: 2.5;
-  margin: 60px 350px;
+  margin-top: 60px;
   padding: 40px 40px;
 }
 .about-title {
@@ -142,7 +142,7 @@ footer {
 footer .contact-box {
   background: whitesmoke;
   padding: 30px 120px;
-  margin: 40px 0;
+  margin: 40px auto;
 }
 footer .contact-box p {
   margin: 0;

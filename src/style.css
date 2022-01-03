@@ -177,3 +177,6 @@ footer .btn:hover {
   background: var(--extra-color);
   color: var(--primary-color);
 }
+footer .github a {
+  color: whitesmoke;
+}

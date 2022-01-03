@@ -6,6 +6,23 @@
   --extra-color: #fdb44b;
   --primary-font: "Poppins", sans-serif;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  img {
+    max-width: 200px;
+    display: block;
+    text-align: center;
+  }
+}
 body {
   margin: 0 auto;
   width: 100%;
@@ -71,7 +88,7 @@ h4 {
 .contact {
   color: whitesmoke;
   display: block;
-  margin-top: 100px;
+  margin: 150px 0;
 }
 .contact-info {
   color: var(--secondary-color);
@@ -98,7 +115,6 @@ h4 {
 }
 #about-me {
   margin-top: 300px;
-  margin-bottom: 50px;
   background-color: white;
   color: var(--secondary-color);
 }
@@ -120,7 +136,8 @@ h4 {
 }
 
 footer {
-  margin: 60px 70px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 footer .contact-box {
   background: whitesmoke;
@@ -139,9 +156,6 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--extra-color);
 }
-footer .btn {
-  padding: 20px 60px;
-}
 
 footer .social-links a {
   margin: 0 20px;
@@ -155,6 +169,9 @@ footer .social-links a {
 footer .social-links a:hover {
   color: whitesmoke;
   background: var(--extra-color);
+}
+footer .btn {
+  padding: 20px 60px;
 }
 footer .btn:hover {
   background: var(--extra-color);
